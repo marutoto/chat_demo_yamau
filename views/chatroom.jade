@@ -1,0 +1,17 @@
+extends template
+
+append javascripts
+  script(src='./javascripts/chat.js'); 
+
+block main_contents
+  p welcome to chatroom!
+  p your name : #{username}
+  #transportName
+  input(id='msg')
+  input(id='submitButton', type='button', value='submit!!')
+  #messageArea
+    ul
+
+
+
+

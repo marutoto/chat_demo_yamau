@@ -1,0 +1,11 @@
+extends template
+
+block main_contents
+  p input your name.
+  form(action='/chatroom', method='post')
+    input(name='username')
+    input(id='enterButton', type='submit', value='enter!!')
+
+
+
+
